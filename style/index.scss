@@ -1,0 +1,32 @@
+.entry{
+	width:200px;
+	height:100px;
+	border:1px solid #ce245d;
+	background:#25defc;
+	margin:20px auto;
+	overflow:scroll;
+}
+.img{
+	width:270px;
+	height:129px;
+	margin:33px auto 20px auto;
+}
+.img img{
+	width:100%;
+	height:129px;
+}
+.svg{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:300px;
+	right:50px;
+}
+.svg img{
+	width:100%;
+	height:50px;
+}
+.san{
+	color:#753030;
+	margin-top:50px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>百度一下</title>
+</head>
+<body>
+	<div id="head"></div>
+  <div class="img">
+    <img src="https://www.baidu.com/img/bd_logo1.png?where=super">
+  </div>
+<!--   <div id="search"></div> -->
+  <div class="svg">
+    <img src="https://rails365.oss-cn-shenzhen.aliyuncs.com/money-bag.svg">
+  </div>
+
+ 
+
+<script type="text/babel">
+	ReactDOM.render(
+    <div>
+      <div className="weather">
+        <em>广州：</em>
+        <span><span></span></span>
+        <span><span></span></span>
+      </div>
+    
+      <ul className="nav">
+        <li><a href="#">新闻</a></li>
+        <li className="hao"><a href="#">hao123</a></li>
+        <li><a href="#">地图</a></li>
+        <li><a href="#">视频</a></li>
+        <li><a href="#">贴吧</a></li>
+        <li><a href="#">学术</a></li>
+        <li className="user"><a href="#"><span>账户</span></a></li>
+        <li className="set"><a href="#"><span>设置</span></a></li>
+        <li className="moreproduction"><a href="#"><span>更多产品</span></a></li>
+      </ul>
+    </div>,
+    document.getElementById("head")
+  )
+
+
+
+  var MyApp = san.defineComponent({
+    template: ''
+        + '<div class="search">'
+        +   '<input value="" type="text" class="search-content">'
+        +   '<button class="search-btn">百度一下</button>'
+        +   '<span></span>'
+        + '</div>'
+  });
+
+  var myApp = new MyApp();
+  myApp.attach(document.body);
+
+</script>
+<script src="https://unpkg.com/san@latest/dist/san.dev.js"></script>
+<script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/react/16.2.0/umd/react.development.js"></script>
+<script src="https://cdn.bootcss.com/react-dom/16.2.0/umd/react-dom.development.js"></script>
+<script src="https://cdn.bootcss.com/babel-standalone/7.0.0-beta.3/babel.js"></script>
+</body>
+</html>
+
+<!-- doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (foo) bar(1 + 5)
+  body
+    h1 Pug - node template engine
+    #root
+    #container.col
+      if youAreUsingPug
+        p You are amazing
+      else
+        p Get on it!
+      p.
+        Pug is a terse and simple templating language with a
+        strong focus on performance and powerful features. -->
